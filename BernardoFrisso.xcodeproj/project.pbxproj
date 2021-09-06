@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C4B43AA573B71CEAED37C04 /* Pods_BernardoFrisso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB55E7B0089C96962F296CCE /* Pods_BernardoFrisso.framework */; };
 		E22EC7D726E1958200E3BB81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22EC7D626E1958200E3BB81 /* AppDelegate.swift */; };
 		E22EC7D926E1958200E3BB81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22EC7D826E1958200E3BB81 /* SceneDelegate.swift */; };
-		E22EC7DB26E1958200E3BB81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22EC7DA26E1958200E3BB81 /* ViewController.swift */; };
+		E22EC7DB26E1958200E3BB81 /* RepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22EC7DA26E1958200E3BB81 /* RepositoryViewController.swift */; };
 		E22EC7DE26E1958200E3BB81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22EC7DC26E1958200E3BB81 /* Main.storyboard */; };
 		E22EC7E026E1958600E3BB81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22EC7DF26E1958600E3BB81 /* Assets.xcassets */; };
 		E22EC7E326E1958600E3BB81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22EC7E126E1958600E3BB81 /* LaunchScreen.storyboard */; };
+		E22EC7ED26E19B6000E3BB81 /* RepositoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22EC7EC26E19B6000E3BB81 /* RepositoryModel.swift */; };
+		E22EC7EF26E19BDF00E3BB81 /* OwnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22EC7EE26E19BDF00E3BB81 /* OwnerModel.swift */; };
+		E22EC7F126E19D8A00E3BB81 /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22EC7F026E19D8A00E3BB81 /* Routes.swift */; };
+		E22EC7F326E19DDA00E3BB81 /* Erro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22EC7F226E19DDA00E3BB81 /* Erro.swift */; };
+		E22EC7F526E19E4900E3BB81 /* Callbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22EC7F426E19E4900E3BB81 /* Callbacks.swift */; };
+		E22EC7F726E19E7B00E3BB81 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22EC7F626E19E7B00E3BB81 /* Requests.swift */; };
+		E28FF71426E5148800FC8C82 /* ListaPullsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28FF71326E5148800FC8C82 /* ListaPullsViewController.swift */; };
+		E28FF71926E51D7000FC8C82 /* AlertUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28FF71826E51D7000FC8C82 /* AlertUtils.swift */; };
+		E28FF71D26E63F2400FC8C82 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28FF71C26E63F2400FC8C82 /* RepoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09608021BDCB6F5BA4166407 /* Pods-BernardoFrisso.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BernardoFrisso.release.xcconfig"; path = "Target Support Files/Pods-BernardoFrisso/Pods-BernardoFrisso.release.xcconfig"; sourceTree = "<group>"; };
+		0E29625FA3AF2E70FEA36581 /* Pods-BernardoFrisso.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BernardoFrisso.debug.xcconfig"; path = "Target Support Files/Pods-BernardoFrisso/Pods-BernardoFrisso.debug.xcconfig"; sourceTree = "<group>"; };
+		BB55E7B0089C96962F296CCE /* Pods_BernardoFrisso.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BernardoFrisso.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22EC7D326E1958200E3BB81 /* BernardoFrisso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BernardoFrisso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22EC7D626E1958200E3BB81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E22EC7D826E1958200E3BB81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E22EC7DA26E1958200E3BB81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E22EC7DA26E1958200E3BB81 /* RepositoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryViewController.swift; sourceTree = "<group>"; };
 		E22EC7DD26E1958200E3BB81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E22EC7DF26E1958600E3BB81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E22EC7E226E1958600E3BB81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E22EC7E426E1958600E3BB81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E22EC7EC26E19B6000E3BB81 /* RepositoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryModel.swift; sourceTree = "<group>"; };
+		E22EC7EE26E19BDF00E3BB81 /* OwnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerModel.swift; sourceTree = "<group>"; };
+		E22EC7F026E19D8A00E3BB81 /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		E22EC7F226E19DDA00E3BB81 /* Erro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Erro.swift; sourceTree = "<group>"; };
+		E22EC7F426E19E4900E3BB81 /* Callbacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Callbacks.swift; sourceTree = "<group>"; };
+		E22EC7F626E19E7B00E3BB81 /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		E28FF71326E5148800FC8C82 /* ListaPullsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPullsViewController.swift; sourceTree = "<group>"; };
+		E28FF71826E51D7000FC8C82 /* AlertUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUtils.swift; sourceTree = "<group>"; };
+		E28FF71C26E63F2400FC8C82 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4B43AA573B71CEAED37C04 /* Pods_BernardoFrisso.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D50FD92F629805962F57979F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E29625FA3AF2E70FEA36581 /* Pods-BernardoFrisso.debug.xcconfig */,
+				09608021BDCB6F5BA4166407 /* Pods-BernardoFrisso.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E22EC7CA26E1958200E3BB81 = {
 			isa = PBXGroup;
 			children = (
 				E22EC7D526E1958200E3BB81 /* BernardoFrisso */,
 				E22EC7D426E1958200E3BB81 /* Products */,
+				D50FD92F629805962F57979F /* Pods */,
+				EB6513B1B181F2081506402A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,72 @@
 		E22EC7D526E1958200E3BB81 /* BernardoFrisso */ = {
 			isa = PBXGroup;
 			children = (
-				E22EC7D626E1958200E3BB81 /* AppDelegate.swift */,
-				E22EC7D826E1958200E3BB81 /* SceneDelegate.swift */,
-				E22EC7DA26E1958200E3BB81 /* ViewController.swift */,
+				E28FF71626E514B600FC8C82 /* App */,
+				E22EC7EA26E19B4000E3BB81 /* Api */,
+				E22EC7EB26E19B4700E3BB81 /* Model */,
+				E28FF71526E5149700FC8C82 /* Controller */,
+				E28FF71726E51D4900FC8C82 /* Utils */,
 				E22EC7DC26E1958200E3BB81 /* Main.storyboard */,
 				E22EC7DF26E1958600E3BB81 /* Assets.xcassets */,
 				E22EC7E126E1958600E3BB81 /* LaunchScreen.storyboard */,
 				E22EC7E426E1958600E3BB81 /* Info.plist */,
 			);
 			path = BernardoFrisso;
+			sourceTree = "<group>";
+		};
+		E22EC7EA26E19B4000E3BB81 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				E22EC7F026E19D8A00E3BB81 /* Routes.swift */,
+				E22EC7F226E19DDA00E3BB81 /* Erro.swift */,
+				E22EC7F426E19E4900E3BB81 /* Callbacks.swift */,
+				E22EC7F626E19E7B00E3BB81 /* Requests.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		E22EC7EB26E19B4700E3BB81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E22EC7EC26E19B6000E3BB81 /* RepositoryModel.swift */,
+				E22EC7EE26E19BDF00E3BB81 /* OwnerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E28FF71526E5149700FC8C82 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E28FF71326E5148800FC8C82 /* ListaPullsViewController.swift */,
+				E22EC7DA26E1958200E3BB81 /* RepositoryViewController.swift */,
+				E28FF71C26E63F2400FC8C82 /* RepoTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E28FF71626E514B600FC8C82 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E22EC7D826E1958200E3BB81 /* SceneDelegate.swift */,
+				E22EC7D626E1958200E3BB81 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E28FF71726E51D4900FC8C82 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E28FF71826E51D7000FC8C82 /* AlertUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EB6513B1B181F2081506402A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB55E7B0089C96962F296CCE /* Pods_BernardoFrisso.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E22EC7E726E1958600E3BB81 /* Build configuration list for PBXNativeTarget "BernardoFrisso" */;
 			buildPhases = (
+				09EC801F0E31CAB44BBA3B13 /* [CP] Check Pods Manifest.lock */,
 				E22EC7CF26E1958200E3BB81 /* Sources */,
 				E22EC7D026E1958200E3BB81 /* Frameworks */,
 				E22EC7D126E1958200E3BB81 /* Resources */,
+				197A60983DB0A2761223C3B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +225,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09EC801F0E31CAB44BBA3B13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BernardoFrisso-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		197A60983DB0A2761223C3B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BernardoFrisso/Pods-BernardoFrisso-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BernardoFrisso/Pods-BernardoFrisso-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BernardoFrisso/Pods-BernardoFrisso-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E22EC7CF26E1958200E3BB81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E22EC7DB26E1958200E3BB81 /* ViewController.swift in Sources */,
+				E22EC7DB26E1958200E3BB81 /* RepositoryViewController.swift in Sources */,
+				E22EC7F126E19D8A00E3BB81 /* Routes.swift in Sources */,
+				E22EC7F526E19E4900E3BB81 /* Callbacks.swift in Sources */,
+				E22EC7F726E19E7B00E3BB81 /* Requests.swift in Sources */,
+				E22EC7EF26E19BDF00E3BB81 /* OwnerModel.swift in Sources */,
+				E22EC7ED26E19B6000E3BB81 /* RepositoryModel.swift in Sources */,
 				E22EC7D726E1958200E3BB81 /* AppDelegate.swift in Sources */,
+				E28FF71426E5148800FC8C82 /* ListaPullsViewController.swift in Sources */,
+				E28FF71926E51D7000FC8C82 /* AlertUtils.swift in Sources */,
+				E22EC7F326E19DDA00E3BB81 /* Erro.swift in Sources */,
 				E22EC7D926E1958200E3BB81 /* SceneDelegate.swift in Sources */,
+				E28FF71D26E63F2400FC8C82 /* RepoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,6 +427,7 @@
 		};
 		E22EC7E826E1958600E3BB81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E29625FA3AF2E70FEA36581 /* Pods-BernardoFrisso.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +447,7 @@
 		};
 		E22EC7E926E1958600E3BB81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09608021BDCB6F5BA4166407 /* Pods-BernardoFrisso.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
