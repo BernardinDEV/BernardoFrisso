@@ -21,7 +21,7 @@
 		E22EC7F326E19DDA00E3BB81 /* Erro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22EC7F226E19DDA00E3BB81 /* Erro.swift */; };
 		E22EC7F526E19E4900E3BB81 /* Callbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22EC7F426E19E4900E3BB81 /* Callbacks.swift */; };
 		E22EC7F726E19E7B00E3BB81 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22EC7F626E19E7B00E3BB81 /* Requests.swift */; };
-		E28FF71426E5148800FC8C82 /* ListaPullsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28FF71326E5148800FC8C82 /* ListaPullsViewController.swift */; };
+		E28FF71426E5148800FC8C82 /* PullsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28FF71326E5148800FC8C82 /* PullsViewController.swift */; };
 		E28FF71926E51D7000FC8C82 /* AlertUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28FF71826E51D7000FC8C82 /* AlertUtils.swift */; };
 		E28FF71D26E63F2400FC8C82 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28FF71C26E63F2400FC8C82 /* RepoTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -45,7 +45,7 @@
 		E22EC7F226E19DDA00E3BB81 /* Erro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Erro.swift; sourceTree = "<group>"; };
 		E22EC7F426E19E4900E3BB81 /* Callbacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Callbacks.swift; sourceTree = "<group>"; };
 		E22EC7F626E19E7B00E3BB81 /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
-		E28FF71326E5148800FC8C82 /* ListaPullsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPullsViewController.swift; sourceTree = "<group>"; };
+		E28FF71326E5148800FC8C82 /* PullsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullsViewController.swift; sourceTree = "<group>"; };
 		E28FF71826E51D7000FC8C82 /* AlertUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUtils.swift; sourceTree = "<group>"; };
 		E28FF71C26E63F2400FC8C82 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 		E203FEF426E9202900AFFA81 /* Pull */ = {
 			isa = PBXGroup;
 			children = (
-				E28FF71326E5148800FC8C82 /* ListaPullsViewController.swift */,
+				E28FF71326E5148800FC8C82 /* PullsViewController.swift */,
 				E203FEF226E9201F00AFFA81 /* PullsDetailTableViewCell.swift */,
 			);
 			path = Pull;
@@ -307,7 +307,7 @@
 				E22EC7ED26E19B6000E3BB81 /* RepositoryModel.swift in Sources */,
 				E22EC7D726E1958200E3BB81 /* AppDelegate.swift in Sources */,
 				E203FEF326E9201F00AFFA81 /* PullsDetailTableViewCell.swift in Sources */,
-				E28FF71426E5148800FC8C82 /* ListaPullsViewController.swift in Sources */,
+				E28FF71426E5148800FC8C82 /* PullsViewController.swift in Sources */,
 				E28FF71926E51D7000FC8C82 /* AlertUtils.swift in Sources */,
 				E22EC7F326E19DDA00E3BB81 /* Erro.swift in Sources */,
 				E22EC7D926E1958200E3BB81 /* SceneDelegate.swift in Sources */,

@@ -21,12 +21,8 @@ final class RepositoryModel {
     var userAvatarUrl: URL?
     
     init(respositorioDicionario item : Dictionary < String, AnyObject>) {
-       
         if let name = item["name"] as? String {
             self.name = name
-        }
-        if let fullName = item["full_name"] as? String {
-            self.userRealName = fullName
         }
         if let description = item["description"] as? String {
             self.description = description
@@ -51,7 +47,6 @@ final class RepositoryModel {
                 }
             }
         }
-        
     }
 }
     

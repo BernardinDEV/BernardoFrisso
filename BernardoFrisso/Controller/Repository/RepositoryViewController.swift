@@ -63,12 +63,10 @@ class RepositoryViewController: UITableViewController {
             }
         }
     }
-   
-
+//MARK: - Segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let indexPath = self.tableView.indexPathForSelectedRow?.row
         let vc = segue.destination as! PullsViewController
-        vc.fetchPulls()
         vc.repository = self.respository[indexPath!]
     }
 }

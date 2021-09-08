@@ -9,6 +9,14 @@ import UIKit
 
 class PullsDetailTableViewCell: UITableViewCell {
 
+    
+//MARK: - IBOutlets
+    
+    @IBOutlet weak var pullName: UILabel!
+    @IBOutlet weak var pullDescription: UILabel!
+    @IBOutlet weak var userName: UILabel!
+    @IBOutlet weak var userImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -19,5 +27,4 @@ class PullsDetailTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
 }

@@ -8,7 +8,7 @@
 import UIKit
 
 class RepoTableViewCell: UITableViewCell {
-    
+//MARK: - IBoutlats
     @IBOutlet weak var userImage: UIImageView!
     @IBOutlet weak var descriptionRepository: UILabel!
     @IBOutlet weak var title: UILabel!

@@ -36,7 +36,7 @@ class Requests {
     }
     
     class func getPulls(owner: String , repository: String, completion: @escaping OwnerCall) {
-        let url = Routes.pullList + owner + repository + "/pulls"
+        let url = Routes.pullList + owner + "/" + repository + "/pulls"
         
         Alamofire.request(url, method: .get, encoding: JSONEncoding()) .responseJSON { response in
             guard let statusCode = response.response?.statusCode else {
