@@ -10,7 +10,6 @@ import Alamofire
 
 class Requests {
     
-    
     class func getReposistorys(page: Int, completion: @escaping ReposistoryCall) {
         let url = Routes.search + "\(page)"
         Alamofire.request(url, method: .get, encoding: JSONEncoding()) .responseJSON { response in
@@ -29,14 +28,11 @@ class Requests {
                     }
                 }
                 completion(.success(repository))
-                
-                
             default:
                 print("[\(url)]", "\nRequest failed")
                 completion(.failure(.unexpected))
             }
         }
-        
     }
     
     class func getPulls(owner: String , repository: String, completion: @escaping OwnerCall) {
@@ -50,19 +46,18 @@ class Requests {
             switch statusCode {
             case 200..<300:
                 var pulls = [Owner]()
-                for item in pulls {
+                if let array = response.result.value as? Array<AnyObject>{
+                for item in array  {
                     if let dict = item as? Dictionary<String, AnyObject> {
                         pulls.append(Owner(pullDicionario: dict))
                     }
                 }
-                completion(.success(pulls))
-        
+                    completion(.success(pulls))
+            }
             default:
                 print("[\(url)]", "\nRequest failed")
                 completion(.failure(.unexpected))
             }
         }
-        
     }
-    
 }

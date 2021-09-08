@@ -8,6 +8,6 @@
 import Foundation
 
 struct Routes {
-    static let search = "https://api.github.com/search/repositories?q=language:Swift&sort=stars"
+    static let search = "https://api.github.com/search/repositories?q=language:Swift&sort=stars&page="
     static let pullList = "http://api.github.com/repos/"
 }

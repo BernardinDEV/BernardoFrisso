@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C4B43AA573B71CEAED37C04 /* Pods_BernardoFrisso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB55E7B0089C96962F296CCE /* Pods_BernardoFrisso.framework */; };
+		E203FEF326E9201F00AFFA81 /* PullsDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E203FEF226E9201F00AFFA81 /* PullsDetailTableViewCell.swift */; };
 		E22EC7D726E1958200E3BB81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22EC7D626E1958200E3BB81 /* AppDelegate.swift */; };
 		E22EC7D926E1958200E3BB81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22EC7D826E1958200E3BB81 /* SceneDelegate.swift */; };
 		E22EC7DB26E1958200E3BB81 /* RepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22EC7DA26E1958200E3BB81 /* RepositoryViewController.swift */; };
@@ -29,6 +30,7 @@
 		09608021BDCB6F5BA4166407 /* Pods-BernardoFrisso.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BernardoFrisso.release.xcconfig"; path = "Target Support Files/Pods-BernardoFrisso/Pods-BernardoFrisso.release.xcconfig"; sourceTree = "<group>"; };
 		0E29625FA3AF2E70FEA36581 /* Pods-BernardoFrisso.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BernardoFrisso.debug.xcconfig"; path = "Target Support Files/Pods-BernardoFrisso/Pods-BernardoFrisso.debug.xcconfig"; sourceTree = "<group>"; };
 		BB55E7B0089C96962F296CCE /* Pods_BernardoFrisso.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BernardoFrisso.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E203FEF226E9201F00AFFA81 /* PullsDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullsDetailTableViewCell.swift; sourceTree = "<group>"; };
 		E22EC7D326E1958200E3BB81 /* BernardoFrisso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BernardoFrisso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22EC7D626E1958200E3BB81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E22EC7D826E1958200E3BB81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,33 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E203FEF426E9202900AFFA81 /* Pull */ = {
+			isa = PBXGroup;
+			children = (
+				E28FF71326E5148800FC8C82 /* ListaPullsViewController.swift */,
+				E203FEF226E9201F00AFFA81 /* PullsDetailTableViewCell.swift */,
+			);
+			path = Pull;
+			sourceTree = "<group>";
+		};
+		E203FEF526E9203D00AFFA81 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E22EC7DA26E1958200E3BB81 /* RepositoryViewController.swift */,
+				E28FF71C26E63F2400FC8C82 /* RepoTableViewCell.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E203FEF626E9205400AFFA81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E22EC7DC26E1958200E3BB81 /* Main.storyboard */,
+				E22EC7E126E1958600E3BB81 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E22EC7CA26E1958200E3BB81 = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +124,8 @@
 				E22EC7EB26E19B4700E3BB81 /* Model */,
 				E28FF71526E5149700FC8C82 /* Controller */,
 				E28FF71726E51D4900FC8C82 /* Utils */,
-				E22EC7DC26E1958200E3BB81 /* Main.storyboard */,
+				E203FEF626E9205400AFFA81 /* View */,
 				E22EC7DF26E1958600E3BB81 /* Assets.xcassets */,
-				E22EC7E126E1958600E3BB81 /* LaunchScreen.storyboard */,
 				E22EC7E426E1958600E3BB81 /* Info.plist */,
 			);
 			path = BernardoFrisso;
@@ -126,9 +154,8 @@
 		E28FF71526E5149700FC8C82 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E28FF71326E5148800FC8C82 /* ListaPullsViewController.swift */,
-				E22EC7DA26E1958200E3BB81 /* RepositoryViewController.swift */,
-				E28FF71C26E63F2400FC8C82 /* RepoTableViewCell.swift */,
+				E203FEF426E9202900AFFA81 /* Pull */,
+				E203FEF526E9203D00AFFA81 /* Repository */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -279,6 +306,7 @@
 				E22EC7EF26E19BDF00E3BB81 /* OwnerModel.swift in Sources */,
 				E22EC7ED26E19B6000E3BB81 /* RepositoryModel.swift in Sources */,
 				E22EC7D726E1958200E3BB81 /* AppDelegate.swift in Sources */,
+				E203FEF326E9201F00AFFA81 /* PullsDetailTableViewCell.swift in Sources */,
 				E28FF71426E5148800FC8C82 /* ListaPullsViewController.swift in Sources */,
 				E28FF71926E51D7000FC8C82 /* AlertUtils.swift in Sources */,
 				E22EC7F326E19DDA00E3BB81 /* Erro.swift in Sources */,

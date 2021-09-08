@@ -17,7 +17,6 @@ class Owner {
     var body: String?
     var URL: String?
     var id: String?
-    var htmlURL: String?
     
     init() {}
     
@@ -43,11 +42,6 @@ class Owner {
         if let url = dict["url"] as? String {
             self.URL = url
         }
-    
-        if let htmlUrl = dict["html_url"] as? String {
-            self.htmlURL = htmlUrl
-        }
-      
         if let id = dict["id"] as? Int {
             self.id = String(id)
         }

@@ -25,22 +25,14 @@ final class RepositoryModel {
         if let name = item["name"] as? String {
             self.name = name
         }
-        
         if let fullName = item["full_name"] as? String {
             self.userRealName = fullName
         }
-        
         if let description = item["description"] as? String {
             self.description = description
         }
-        if let forks = item["forks"] as? Int {
-            self.quantityOfForks = forks
-        }
         if let stars = item["stargazers_count"] as? Int {
             self.quantityOfStargazers = stars
-        }
-        if let htmlURL = item["html_url"] as? String {
-            self.htmlUrl = htmlURL
         }
         if let ownerData = item["owner"] as? Dictionary<String, AnyObject> {
             if let loginName = ownerData["login"] as? String {

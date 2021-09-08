@@ -32,8 +32,6 @@ enum Erro: Error {
             return 410
         case .api(let code, _):
                 return code
-            
-            
         }
     }
     
